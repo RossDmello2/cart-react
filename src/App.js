@@ -7,7 +7,7 @@ class App extends React.Component {
       <div>
         <h1>User Profiles</h1>
         <UserProfile name="Alice" age={25} location="New York" />
-        <UserProfile name="Bob" age={30} location="Los Angeles" />
+        <UserProfile name="Bobby" age={30} location="Los Angeles" />
         <UserProfile name="Raju" age={35} location="Chicago" />
         {/* This will use default props */}
         <UserProfile />
